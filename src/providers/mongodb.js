@@ -10,7 +10,7 @@ const MongoDB = ({ children }) => {
 
     useEffect(() => {
         if (user !== null) {
-            const realmService = user.app.services.mongodb(
+            const realmService = user.mongoClient(
                 process.env.REACT_APP_REALM_SERVICE_NAME
             )
             setDb(realmService.db(process.env.REACT_APP_DB_NAME))

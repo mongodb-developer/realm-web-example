@@ -11,7 +11,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
-    "realm-web": "^0.8.1"
+    "realm-web": "^1.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
